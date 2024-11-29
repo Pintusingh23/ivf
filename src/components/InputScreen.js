@@ -43,12 +43,10 @@ const InputScreen = ({ onCalculate }) => {
         </button>
       </nav>
 
-      {/* Form Section */}
       <h3>Which age range applies to you?</h3>
       <form onSubmit={handleSubmit} className="form">
         <div className="form-group">
           <div className="radio-buttons">
-            {/* Age Groups */}
             <div className="radio-row">
               <label>
                 <input
@@ -122,8 +120,6 @@ const InputScreen = ({ onCalculate }) => {
           />
           <p>{ivfCycles} IVF Cycle(s)</p>
         </div>
-
-        {/* Previous Procedures */}
         <div className="form-group">
           <label>Have you undergone these procedures before?</label>
           <div className="checkbox-group">
