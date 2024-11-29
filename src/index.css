@@ -1,0 +1,121 @@
+.navbar {
+  width: 1728px;
+  height: 85px;
+  padding: 7px 120px;
+  gap: 0;
+  border: 0px solid transparent;
+  opacity: 0;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #E6E3D2;
+}
+.frame {
+  width: 312px;
+  height: 24px;
+  position: absolute;
+  top: 125px;
+  left: 120px;
+  gap: 15px;
+  opacity: 0;
+}
+.age-range {
+  width: 714px;
+  height: 84px;
+  position: absolute;
+  top: 241px;
+  left: 507px;
+  gap: 20px;
+  opacity: 0;
+}
+.ivf-cycles {
+  width: 315px;
+  height: 42px;
+  position: absolute;
+  top: 369px;
+  left: 706px;
+  gap: 0;
+  opacity: 0;
+}
+.ivf-cycles-text {
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  text-decoration: none;
+  background-color: #1E231E;
+  color: #ffffff;
+}
+.procedures {
+  width: 663px;
+  height: 42px;
+  position: absolute;
+  top: 539px;
+  left: 532px;
+  gap: 0;
+  opacity: 0;
+}
+.procedures-text {
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  text-decoration: none;
+  background-color: #1E231E;
+  color: #ffffff;
+}
+.default-button {
+  width: 744px;
+  height: 32px;
+  position: absolute;
+  top: 605px;
+  left: 485px;
+  gap: 80px;
+  opacity: 0;
+}
+.medical-conditions {
+  width: 650px;
+  height: 42px;
+  position: absolute;
+  top: 681px;
+  left: 532px;
+  gap: 0;
+  opacity: 0;
+}
+.medical-conditions-text {
+  font-family: Poppins, sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: left;
+  text-decoration: none;
+  background-color: #1E231E;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .frame, .age-range, .ivf-cycles, .procedures, .medical-conditions {
+    width: 100%;
+    top: auto;
+    left: auto;
+    position: relative;
+  }
+
+  .default-button {
+    width: 100%;
+  }
+  
+  .ivf-cycles-text, .procedures-text, .medical-conditions-text {
+    font-size: 20px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar {
+    width: 100%;
+    padding: 7px 120px;
+  }
+}

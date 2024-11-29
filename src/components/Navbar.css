@@ -1,0 +1,68 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  /* Keeps the navbar on top of other content */
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo-highlight {
+    color: #ff6347; /* Tomato color for highlighting */
+  }
+  
+  /* Styling for the navigation links */
+  .navbar-links {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    margin-right: 20px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff6347;  /* Highlight links on hover */
+  }
+  
+  /* Button styling */
+  .navbar-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .navbar-button .arrow {
+    margin-left: 5px;
+  }
+  
+  /* Adding margin to the body or content to prevent it from being hidden under the navbar */
+  body {
+    margin-top: 70px; /* Adjust this value based on the navbar height */
+  }
+  
